@@ -1,12 +1,9 @@
 import streamlit as st
-
-   ```
    $ pip install -r requirements.txt
    ```
 
 2. Run the app
 
-   ```
    $ streamlit run streamlit_app.py
    ```
 mport streamlit as st
@@ -69,4 +66,5 @@ if disc_points:
     st.write("불연속점(근사):", np.round(disc_points, 3))
 else:
     st.write("불연속점이 감지되지 않았습니다.")
+
 
