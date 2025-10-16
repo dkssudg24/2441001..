@@ -1,6 +1,6 @@
 import streamlit as st
 import numpy as np
-import sympy as sp
+import sympy as sp 
 import matplotlib.pyplot as plt
 
 # --- 앱 제목 및 설명 ---
